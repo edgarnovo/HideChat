@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1fb2b9"
+    tools:context=".LoginActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/loginActivityLogo"
+            android:layout_width="162dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/splash" />
+
+        <FrameLayout
+            android:id="@+id/loginActivityOrange"
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:layout_below="@+id/loginActivityLogo"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/box_orange" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/loginActivityLime"
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:layout_below="@+id/loginActivityOrange"
+            android:background="@drawable/box_lime" >
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/loginActivityBoxUsername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/loginActivityLime"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/box_white"
+            android:padding="8dp" >
+
+            <EditText
+                android:id="@+id/loginActivityTxtUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/username" >
+
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/loginActivityBoxPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/loginActivityBoxUsername"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/box_white"
+            android:padding="8dp" >
+
+            <EditText
+                android:id="@+id/loginActivityTxtPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/loginActivityBoxLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/loginActivityBoxPassword" >
+
+            <Button
+                android:id="@+id/loginActivityBtnLogin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/login"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/loginActivityLblCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginActivityBtnLogin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/register" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

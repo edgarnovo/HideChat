@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1fb2b9"
+    tools:context=".SplashActivity" >
+
+    <ImageView
+        android:id="@+id/splashActivityLogo"
+        android:layout_width="200dp"
+        android:layout_height="216dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash" />
+
+    <FrameLayout
+        android:id="@+id/splashActivityOrange"
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_below="@+id/splashActivityLogo"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/box_orange" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/splashActivityLime"
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_below="@+id/splashActivityOrange"
+        android:background="@drawable/box_lime" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashActivityLime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/team_name"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />    
+    
+    <RelativeLayout
+        android:id="@+id/splashActivityWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/box_white" >
+
+        <ImageView
+            android:id="@+id/splashActivityLogoBpi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo_bpi" />
+
+        <ImageView
+            android:id="@+id/splashActivityPartnersBpi"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/splashActivityLogoBpi"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/partners_bpi" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
