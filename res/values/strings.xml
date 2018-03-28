@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HIDECHAT</string>
+    <string name="team_name">NINJA DEVELOPERS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">178107175724684</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    
+    
+    
+
+    <string name="title_activity_new_message">NewMessage</string>
+    <string name="newMessageNew">New message</string>
+    <string name="title_activity_select_friend">SelectFriend</string>
+    <string name="logout"> Logout </string>
+    <string name="save_photo"> Save Photo </string>
+    
+    <string name="first_name"> First Name </string>
+    <string name="last_name"> Last Name </string>
+    <string name="username"> Username </string>
+    <string name="password"> Password </string>
+    <string name="login"> Sign In </string>
+    <string name="pass"> Password </string>
+    <string name="photo"> Photo </string>
+    <string name="register"> Create an account </string>
+    <string name="back"> Back </string>
+    <string name="enter"> Enter </string>
+    <string name="savelogin"> Save Login? </string>
+    <string name="select_friend"> Send </string>
+    <string name="send_message"> New Message </string>
+    <string name="respond_message"> Respond Message </string>
+    <string name="no_messages"> No new messages </string>
+    
+    <string name="new_face">New Face</string>
+    <string name="BLANK"></string>
+    <string name="STrain">Train</string>
+    <string name="SViewAll">View all faces</string>
+    <string name="SSearch">Search</string>
+    <string name="SDelete">Delete</string>
+    <string name="SEnter">Enter face name, then pres Rec</string>
+    <string name="SStopTrain">Stop Training</string>
+    <string name="SStopSearch">Stop Search</string>
+    <string name="Straininig">Training...</string>
+    <string name="SCanntoPredic">More then one face is needed to predict</string>
+    <string name="SIdle">Idle</string>
+    <string name="SFaceName">Face name:</string>
+    <string name="SSearching">Searching</string>
+    <string name="SFrontCamera">Front Camera</string>
+    <string name="SBackCamera">Back Camera</string>
+    
+    
+    <!-- NEWS -->
+    
+    <string name="face_register">Face Register</string>
+</resources>
